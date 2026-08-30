@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\DFS">
+      <UniqueIdentifier>{2ea23673-01d7-4124-82ed-1842abac9708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BFS">
+      <UniqueIdentifier>{c459436d-e86a-4906-8141-d73dc1677def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\two_pointer">
+      <UniqueIdentifier>{01777e4b-a80d-4c92-9217-327d88962666}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10.2805_cutting_trees.cpp">
@@ -81,14 +90,17 @@
     <ClCompile Include="Multi_BFS.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="DFS_1.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="DFS\DFS_1.cpp">
+      <Filter>소스 파일\DFS</Filter>
     </ClCompile>
-    <ClCompile Include="DFS_2.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="DFS\DFS_2.cpp">
+      <Filter>소스 파일\DFS</Filter>
     </ClCompile>
-    <ClCompile Include="DFS_3.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="DFS\DFS_3.cpp">
+      <Filter>소스 파일\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS\DFS_4.cpp">
+      <Filter>소스 파일\DFS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
