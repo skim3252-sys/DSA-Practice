@@ -13,94 +13,106 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\DFS">
+    <Filter Include="소스 파일\07_DFS">
       <UniqueIdentifier>{2ea23673-01d7-4124-82ed-1842abac9708}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\BFS">
+    <Filter Include="소스 파일\06_BFS">
       <UniqueIdentifier>{c459436d-e86a-4906-8141-d73dc1677def}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\two_pointer">
-      <UniqueIdentifier>{01777e4b-a80d-4c92-9217-327d88962666}</UniqueIdentifier>
+    <Filter Include="소스 파일\02_Two_Pointer">
+      <UniqueIdentifier>{607cd262-c3f4-4798-b129-3eb5b2e7ae4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01_basic">
+      <UniqueIdentifier>{731f4183-77b4-4552-9ac4-058d2c18d361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_Binary_Search">
+      <UniqueIdentifier>{f445414a-ad64-4b6e-83ef-841db0f48717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04_Stack">
+      <UniqueIdentifier>{186005ea-7893-4140-99f4-5b38dade17d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05_Queue_Deque">
+      <UniqueIdentifier>{c47499f2-6382-400c-895c-0fd7355e2bef}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="10.2805_cutting_trees.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="DFS\island_count_recursive_dfs.cpp">
+      <Filter>소스 파일\07_DFS</Filter>
     </ClCompile>
-    <ClCompile Include="01.max_and_index.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="DFS\connected_components_iterative_dfs.cpp">
+      <Filter>소스 파일\07_DFS</Filter>
     </ClCompile>
-    <ClCompile Include="02.unique_sort.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="03.3273_two_sum.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="04.2470_two_solutions.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="05.2018_sum_of_numbers.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="06.3151_three_sum_naive.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="07.1920_number_search.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="08.10816_number_card2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="09.3151_three_sum.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="P.11.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="P.13.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="P.12.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="P.14.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="P.15.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="P.16.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="P.17.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="P.18.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="P.19.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="P.20.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Adc_BFS.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Multi_BFS.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="DFS\DFS_1.cpp">
-      <Filter>소스 파일\DFS</Filter>
-    </ClCompile>
-    <ClCompile Include="DFS\DFS_2.cpp">
-      <Filter>소스 파일\DFS</Filter>
-    </ClCompile>
-    <ClCompile Include="DFS\DFS_3.cpp">
-      <Filter>소스 파일\DFS</Filter>
+    <ClCompile Include="DFS\connected_components_recursive_dfs.cpp">
+      <Filter>소스 파일\07_DFS</Filter>
     </ClCompile>
     <ClCompile Include="DFS\DFS_4.cpp">
-      <Filter>소스 파일\DFS</Filter>
+      <Filter>소스 파일\07_DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="tomato_day_simulation.cpp">
+      <Filter>소스 파일\06_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_7576_tomato_multi_source_bfs.cpp">
+      <Filter>소스 파일\06_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="island_count_bfs.cpp">
+      <Filter>소스 파일\06_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="picture_area_bfs.cpp">
+      <Filter>소스 파일\06_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2178_maze_search.cpp">
+      <Filter>소스 파일\06_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2018_consecutive_sum.cpp">
+      <Filter>소스 파일\02_Two_Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2470_two_solutions.cpp">
+      <Filter>소스 파일\02_Two_Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_3151_three_sum.cpp">
+      <Filter>소스 파일\02_Two_Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_3151_three_sum_naive.cpp">
+      <Filter>소스 파일\02_Two_Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_3273_two_sum.cpp">
+      <Filter>소스 파일\02_Two_Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="max_and_index.cpp">
+      <Filter>소스 파일\01_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_unique.cpp">
+      <Filter>소스 파일\01_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2164_card2.cpp">
+      <Filter>소스 파일\05_Queue_Deque</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_10866_deque.cpp">
+      <Filter>소스 파일\05_Queue_Deque</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_1920_number_search.cpp">
+      <Filter>소스 파일\03_Binary_Search</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_10816_number_card_2.cpp">
+      <Filter>소스 파일\03_Binary_Search</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2805_cutting_trees.cpp">
+      <Filter>소스 파일\03_Binary_Search</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_2467_solutions_lower_bound.cpp">
+      <Filter>소스 파일\03_Binary_Search</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_9012_parentheses.cpp">
+      <Filter>소스 파일\04_Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_4949_balanced_world.cpp">
+      <Filter>소스 파일\04_Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_10773_zero.cpp">
+      <Filter>소스 파일\04_Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ_17298_next_greater_element.cpp">
+      <Filter>소스 파일\04_Stack</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
